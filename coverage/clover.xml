@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1666919646672" clover="3.2.0">
-  <project timestamp="1666919646672" name="All files">
-    <metrics statements="47" coveredstatements="35" conditionals="2" coveredconditionals="2" methods="12" coveredmethods="7" elements="61" coveredelements="44" complexity="0" loc="47" ncloc="47" packages="2" files="4" classes="4"/>
-    <package name="tpk2022-azure-back-feat-tests">
-      <metrics statements="39" coveredstatements="32" conditionals="2" coveredconditionals="2" methods="9" coveredmethods="7"/>
-      <file name="OperacoesAritmeticas.js" path="C:\Users\aluno\Desktop\tpk2022-azure-back-feat-tests\OperacoesAritmeticas.js">
+<coverage generated="1667523043826" clover="3.2.0">
+  <project timestamp="1667523043826" name="All files">
+    <metrics statements="57" coveredstatements="52" conditionals="6" coveredconditionals="6" methods="12" coveredmethods="9" elements="75" coveredelements="67" complexity="0" loc="57" ncloc="57" packages="2" files="4" classes="4"/>
+    <package name="Aula27">
+      <metrics statements="49" coveredstatements="49" conditionals="6" coveredconditionals="6" methods="9" coveredmethods="9"/>
+      <file name="OperacoesAritmeticas.js" path="C:\Users\aluno\Desktop\Nova pasta\Aula27\OperacoesAritmeticas.js">
         <metrics statements="9" coveredstatements="9" conditionals="0" coveredconditionals="0" methods="4" coveredmethods="4"/>
         <line num="1" count="1" type="stmt"/>
         <line num="2" count="1" type="stmt"/>
@@ -16,8 +16,8 @@
         <line num="23" count="1" type="stmt"/>
         <line num="27" count="1" type="stmt"/>
       </file>
-      <file name="app.js" path="C:\Users\aluno\Desktop\tpk2022-azure-back-feat-tests\app.js">
-        <metrics statements="27" coveredstatements="20" conditionals="2" coveredconditionals="2" methods="4" coveredmethods="2"/>
+      <file name="app.js" path="C:\Users\aluno\Desktop\Nova pasta\Aula27\app.js">
+        <metrics statements="37" coveredstatements="37" conditionals="6" coveredconditionals="6" methods="4" coveredmethods="4"/>
         <line num="1" count="1" type="stmt"/>
         <line num="2" count="1" type="stmt"/>
         <line num="3" count="1" type="stmt"/>
@@ -26,36 +26,46 @@
         <line num="9" count="1" type="stmt"/>
         <line num="11" count="1" type="stmt"/>
         <line num="12" count="1" type="stmt"/>
-        <line num="14" count="1" type="stmt"/>
-        <line num="15" count="2" type="stmt"/>
+        <line num="15" count="1" type="stmt"/>
         <line num="16" count="2" type="stmt"/>
-        <line num="22" count="2" type="stmt"/>
-        <line num="23" count="2" type="cond" truecount="2" falsecount="0"/>
-        <line num="24" count="1" type="stmt"/>
-        <line num="26" count="1" type="stmt"/>
-        <line num="29" count="1" type="stmt"/>
+        <line num="17" count="2" type="stmt"/>
+        <line num="23" count="2" type="stmt"/>
+        <line num="24" count="2" type="cond" truecount="2" falsecount="0"/>
+        <line num="25" count="1" type="stmt"/>
+        <line num="27" count="1" type="stmt"/>
         <line num="30" count="1" type="stmt"/>
-        <line num="34" count="1" type="stmt"/>
-        <line num="35" count="0" type="stmt"/>
-        <line num="36" count="0" type="stmt"/>
-        <line num="37" count="0" type="stmt"/>
-        <line num="40" count="1" type="stmt"/>
-        <line num="41" count="0" type="stmt"/>
-        <line num="42" count="0" type="stmt"/>
-        <line num="43" count="0" type="stmt"/>
-        <line num="44" count="0" type="stmt"/>
+        <line num="31" count="1" type="stmt"/>
+        <line num="37" count="1" type="stmt"/>
+        <line num="38" count="2" type="stmt"/>
+        <line num="39" count="2" type="stmt"/>
+        <line num="40" count="2" type="stmt"/>
+        <line num="44" count="2" type="cond" truecount="2" falsecount="0"/>
+        <line num="45" count="1" type="stmt"/>
         <line num="47" count="1" type="stmt"/>
+        <line num="50" count="1" type="stmt"/>
+        <line num="51" count="1" type="stmt"/>
+        <line num="56" count="1" type="stmt"/>
+        <line num="57" count="2" type="stmt"/>
+        <line num="58" count="2" type="stmt"/>
+        <line num="59" count="2" type="stmt"/>
+        <line num="60" count="2" type="stmt"/>
+        <line num="63" count="2" type="cond" truecount="2" falsecount="0"/>
+        <line num="64" count="1" type="stmt"/>
+        <line num="66" count="1" type="stmt"/>
+        <line num="69" count="1" type="stmt"/>
+        <line num="70" count="1" type="stmt"/>
+        <line num="76" count="1" type="stmt"/>
       </file>
-      <file name="sum.js" path="C:\Users\aluno\Desktop\tpk2022-azure-back-feat-tests\sum.js">
+      <file name="sum.js" path="C:\Users\aluno\Desktop\Nova pasta\Aula27\sum.js">
         <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
         <line num="1" count="1" type="stmt"/>
         <line num="2" count="2" type="stmt"/>
         <line num="6" count="1" type="stmt"/>
       </file>
     </package>
-    <package name="tpk2022-azure-back-feat-tests.database">
+    <package name="Aula27.database">
       <metrics statements="8" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="0"/>
-      <file name="database.local.js" path="C:\Users\aluno\Desktop\tpk2022-azure-back-feat-tests\database\database.local.js">
+      <file name="database.local.js" path="C:\Users\aluno\Desktop\Nova pasta\Aula27\database\database.local.js">
         <metrics statements="8" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="0"/>
         <line num="3" count="1" type="stmt"/>
         <line num="4" count="1" type="stmt"/>

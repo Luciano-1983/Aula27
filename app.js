@@ -11,6 +11,7 @@ app.use(bodyParser.json());
 app.get("/getInfo", function (req, res) {
   res.json({ user: "geekxxx" });
 });
+
 app.post("/clientes/salvar", function (req, res) {
   try {
     const retorno = database.gravarDados({
@@ -31,17 +32,45 @@ app.post("/clientes/salvar", function (req, res) {
   }
 });
 
+
+
 app.get("/clientes/listar", function (req, res) {
+  try {
   const dados = database.buscaTodosDados();
   console.log(dados);
-  res.status(200).send(dados);
+  ;
+
+
+     if (dados) {
+      res.status(200).send(dados);
+    } else {
+      throw "NOk";
+    }
+  } catch (error) {
+    console.log(error);
+    res.status(401).send("NOk");
+  }
 });
 
+
 app.get("/clientes/listar/:key", function (req, res) {
+  try {
   const key = req.params.key;
   const dados = database.buscaDados(key);
   console.log(dados);
-  res.status(200).send(dados);
+  
+
+    if (dados) {
+      res.status(200).send(dados);
+    } else {
+      throw "NOk";
+    }
+  } catch (error) {
+    console.log(error);
+    res.status(401).send("NOk");
+  }
 });
+
+
 
 module.exports = app;
